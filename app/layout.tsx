@@ -9,25 +9,16 @@ const workSans = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'Hosting Estático Premium',
-  description: 'Soluciones de hosting estático de alta calidad para tu presencia digital',
+  title: 'Axel de la Torre | Consultoría en Tecnología',
+  description: 'Consultoría en Tecnología, Transformación Digital, Ecommerce e Inteligencia Artificial.',
   generator: 'v0.app',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
+        url: '/favicon.svg',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
   },
 }
 
